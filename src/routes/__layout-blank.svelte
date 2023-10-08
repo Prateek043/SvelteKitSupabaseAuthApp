@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>Email and Password Demo - Supabase Auth Helpers</title>
+	<title>SvelteKit-App</title>
 </svelte:head>
 
 <SupaAuthHelper {supabaseClient} {session}>

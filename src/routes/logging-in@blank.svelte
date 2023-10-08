@@ -17,17 +17,34 @@
 	}
 </script>
 
-<section>
-	<div>
-		<progress class="progress" max="100" />
-	</div>
-	<div>
-		Signing in from the email confirmation link  ...
-	</div>
-</section>
-
 <style>
-	.progress:indeterminate {
+	/* Apply styles to the entire page */
+	body, html {
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #f4f4f4;
+	}
+
+	/* Apply styles to the section */
+	section {
+		text-align: center;
+	}
+
+	/* Apply styles to the progress bar */
+	.progress.indeterminate {
 		animation-duration: 3.8s;
 	}
 </style>
+
+<section>
+	<div>
+		<progress class="progress indeterminate" max="100" />
+	</div>
+	<div>
+		Signing in from the email confirmation link...
+	</div>
+</section>

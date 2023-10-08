@@ -7,10 +7,9 @@ export const GET = async ({ locals, request }) =>
 			user: locals.user
 		},
 		async () => {
-			// const { data } = await supabaseServerClient(request).from('test').select('*');
+			
 			return {
 				body: {
-					// data,
 					user: locals.user
 				}
 			};
